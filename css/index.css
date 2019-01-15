@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5 {
     margin:0 auto;
     flex-direction: column;
     justify-content: center;
-    width:70%;
+    max-width:880px;
 }
 header {
     display: flex;
@@ -155,13 +155,13 @@ a {
 }
 
  .section-four-right, .section-four-middle, .section-four-left{
-    width: 300px;
+    width: 250px;
     padding:30px 0px;  
     
 }
 
 .section-three-left, .section-three-right {
-    width:500px;
+    width:400px;
     padding:30px 0px;  
 }
 
