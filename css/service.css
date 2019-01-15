@@ -52,6 +52,7 @@ table {
 
 html, body {
     max-height: 100%;
+    font-size:62.5%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -70,6 +71,7 @@ h1, h2, h3, h4, h5 {
 .container{
     display:flex;
     margin:0 auto;
+    font-size: 1.6rem;
     flex-direction: column;
     justify-content: center;
     width:70%;
@@ -123,7 +125,7 @@ a {
 }
 
 .section-design, .section-ui {
-    width: 470px;
+    max-width: 470px;
     height: 320px;
     border: 1px solid black;
     padding:30px;
@@ -146,7 +148,7 @@ a {
 }
 
 .section-digital, .section-web {
-    width: 470px;
+    max-width: 470px;
     height: 320px;
     border: 1px solid black;
     padding:30px;
@@ -168,7 +170,7 @@ a {
 }
 
 .section-ios, .section-android {
-    width: 470px;
+    max-width: 470px;
     height: 320px;
     border: 1px solid black;
     padding:30px;
@@ -185,7 +187,7 @@ a {
 }
 
 .section-funfacts {
-    width: 500px;
+    max-width: 500px;
     height: 300px;
 }
 
@@ -220,7 +222,7 @@ img{
 }
 
 
-@media (max-width:800px) {
+@media (max-width:80rem) {
 
     .container{
         width: 90%;
@@ -263,7 +265,27 @@ img{
 
     .section-footer {
         flex-direction: column;
+    } 
+}
+
+@media (max-width:50rem){
+
+    header{
+        position:relative;
     }
 
-    
+    header nav{
+        width:100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        margin-top:1rem;
+       
+    }
+
+    header nav a{
+        border: 1px solid grey;
+        text-align: center;
+    }
 }
+
