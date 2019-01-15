@@ -53,13 +53,19 @@ table {
 html, body {
     max-height: 100%;
     font-size:62.5%;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Caveat', cursive;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    font-size:2rem;
+}
+
+p{
+   font-size: 2rem; 
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -103,7 +109,7 @@ a {
 
 
 .image-top {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 50px;
     text-align: center;
     max-width: 100%;
