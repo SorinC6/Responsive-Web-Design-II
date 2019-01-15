@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5 {
     margin:0 auto;
     flex-direction: column;
     justify-content: center;
-    max-width:880px;
+    max-width:88rem;
 }
 header {
     display: flex;
@@ -92,7 +92,7 @@ header {
     position: sticky; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width:100%;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 nav {
@@ -102,7 +102,7 @@ nav {
 }
 
 a {
-    padding: 20px;
+    padding: 2rem;
     color:gray;
     text-decoration: none;
 }
@@ -111,11 +111,11 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 30px 0px;
+    margin: 3rem 0px;
 }
 
 .section-two-left, .section-two-right {
-    width: 400px;
+     width: 40%; /* 4rem */
     
 }
 
@@ -129,17 +129,17 @@ a {
 .text-mod {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    margin-top:20px;
-    margin-left:90px;
-    font-size:50px;
+    margin-top:2rem;
+    margin-left:9rem;
+    font-size:5rem;
 }
 .text-mod2{
     border: 1px solid black;
-    margin-top: 50px;
-    margin-left:100px;
+    margin-top: 5rem;
+    margin-left:10rem;
     margin-right:50px;
-    padding:10px;
-    margin-bottom: 30px;
+    padding:1rem;
+    margin-bottom: 3rem;
     text-align: center;
     }
 
@@ -155,13 +155,13 @@ a {
 }
 
  .section-four-right, .section-four-middle, .section-four-left{
-    width: 250px;
-    padding:30px 0px;  
+    width: 25rem;
+    padding:3rem 0px;  
     
 }
 
 .section-three-left, .section-three-right {
-    width:400px;
+    width:40%;
     padding:30px 0px;  
 }
 
@@ -170,17 +170,20 @@ a {
     flex-direction: column;
 }
 .adress-style {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .paragraph-center {
     margin:0 auto;
-    margin-top:40px;
-    margin-bottom: 50px;
+    margin-top:4rem;
+    margin-bottom: 5rem;
 }
 
-@media (max-width:800px) {
-    
+@media (max-width:80rem) {
+
+    .container{
+        width:70%;
+    }
 
     header{
         display: flex;
@@ -224,9 +227,8 @@ a {
 
 
     .container{
-        border:1px solid grey;
+        /* border:1px solid grey; */
         width:100%;
-       
     }
     header{
         display: flex;
@@ -260,11 +262,12 @@ a {
 
     .middle-img{
         margin:5%;
-        height: 100px;
+        height: 10rem;
     }
     .section-two,.section-three-left, .section-three-right, .section-four-right, .section-four-middle, .section-four-left {
-     width:100%; 
+     width:90%; 
      margin: 2%;
+
     }
 
     .section-three, .section-four{
